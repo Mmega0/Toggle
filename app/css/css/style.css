@@ -1,0 +1,72 @@
+body {
+  background: rgb(68, 180, 218);
+  transition: 0.5s;
+}
+
+body.bg {
+  background: rgb(107, 107, 107);
+}
+
+button.button {
+  width: 400px;
+  height: 130px;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 120px;
+  border-top-left-radius: 120px;
+  background-color: #ffffff;
+  background-image: url("/assets/images/day.png");
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  transition: background-color ease-in-out 0.5s;
+  transition: background-image ease-in-out 0.5s;
+  box-shadow: 2px 2px 30px #000000;
+}
+
+button.button.active {
+  width: 400px;
+  height: 130px;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 120px;
+  border-top-left-radius: 120px;
+  background-color: #222222;
+  background-image: url("/assets/images/moon.png");
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 30px #ffffff;
+}
+
+h1.h1-text {
+  color: #000000;
+  margin-top: 2rem;
+  transition: color ease-in-out 0.5s;
+}
+
+h1.h1-text.color {
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: "aileronregular";
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */
